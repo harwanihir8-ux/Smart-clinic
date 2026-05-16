@@ -1,0 +1,683 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial;
+            background-image:url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3");
+            background-size:cover;
+            background-position:center;
+            height:100vh;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            background:rgba(0,0,0,0.7);
+            padding:15px 30px;
+        }
+
+        nav h1{
+            color:white;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-size:18px;
+        }
+
+        nav a:hover{
+            color:cyan;
+        }
+
+        .form-box{
+            width:350px;
+            margin:100px auto;
+            background:rgba(0,0,0,0.7);
+            padding:30px;
+            border-radius:15px;
+            text-align:center;
+            color:white;
+        }
+
+        input{
+            width:90%;
+            padding:12px;
+            margin:10px;
+            border:none;
+            border-radius:8px;
+        }
+
+        button{
+            padding:12px 25px;
+            border:none;
+            background:cyan;
+            font-size:18px;
+            border-radius:10px;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        button:hover{
+            transform:scale(1.1);
+            background:white;
+        }
+
+    </style>
+
+    <script>
+
+        function login(){
+
+            var username =
+            document.getElementById("username").value;
+
+            var password =
+            document.getElementById("password").value;
+
+            if(username=="admin" && password=="1234")
+            {
+                alert("Login Successful");
+
+                window.location.href="appointment.html";
+            }
+
+            else
+            {
+                alert("Wrong Username or Password");
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <nav>
+        <h1>Smart Clinic</h1>
+
+        <div>
+            <a href="index.html">Home</a> |
+            <a href="services.html">Services</a> |
+             <a href="login.html">Login</a> |
+            <a href="appointment.html">Appointment</a> |
+        
+        </div>
+    </nav>
+
+    <div class="form-box">
+
+        <h2>Login Page</h2>
+
+        <input type="text"
+        id="username"
+        placeholder="Enter Username">
+
+        <input type="password"
+        id="password"
+        placeholder="Enter Password">
+
+        <br><br>
+
+        <button onclick="login()">
+            Login
+        </button>
+
+    </div>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial;
+            background-image:url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3");
+            background-size:cover;
+            background-position:center;
+            height:100vh;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            background:rgba(0,0,0,0.7);
+            padding:15px 30px;
+        }
+
+        nav h1{
+            color:white;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-size:18px;
+        }
+
+        nav a:hover{
+            color:cyan;
+        }
+
+        .form-box{
+            width:350px;
+            margin:100px auto;
+            background:rgba(0,0,0,0.7);
+            padding:30px;
+            border-radius:15px;
+            text-align:center;
+            color:white;
+        }
+
+        input{
+            width:90%;
+            padding:12px;
+            margin:10px;
+            border:none;
+            border-radius:8px;
+        }
+
+        button{
+            padding:12px 25px;
+            border:none;
+            background:cyan;
+            font-size:18px;
+            border-radius:10px;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        button:hover{
+            transform:scale(1.1);
+            background:white;
+        }
+
+    </style>
+
+    <script>
+
+        function login(){
+
+            var username =
+            document.getElementById("username").value;
+
+            var password =
+            document.getElementById("password").value;
+
+            if(username=="admin" && password=="1234")
+            {
+                alert("Login Successful");
+
+                window.location.href="appointment.html";
+            }
+
+            else
+            {
+                alert("Wrong Username or Password");
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <nav>
+        <h1>Smart Clinic</h1>
+
+        <div>
+            <a href="index.html">Home</a> |
+            <a href="services.html">Services</a> |
+             <a href="login.html">Login</a> |
+            <a href="appointment.html">Appointment</a> |
+        
+        </div>
+    </nav>
+
+    <div class="form-box">
+
+        <h2>Login Page</h2>
+
+        <input type="text"
+        id="username"
+        placeholder="Enter Username">
+
+        <input type="password"
+        id="password"
+        placeholder="Enter Password">
+
+        <br><br>
+
+        <button onclick="login()">
+            Login
+        </button>
+
+    </div>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial;
+            background-image:url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3");
+            background-size:cover;
+            background-position:center;
+            height:100vh;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            background:rgba(0,0,0,0.7);
+            padding:15px 30px;
+        }
+
+        nav h1{
+            color:white;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-size:18px;
+        }
+
+        nav a:hover{
+            color:cyan;
+        }
+
+        .form-box{
+            width:350px;
+            margin:100px auto;
+            background:rgba(0,0,0,0.7);
+            padding:30px;
+            border-radius:15px;
+            text-align:center;
+            color:white;
+        }
+
+        input{
+            width:90%;
+            padding:12px;
+            margin:10px;
+            border:none;
+            border-radius:8px;
+        }
+
+        button{
+            padding:12px 25px;
+            border:none;
+            background:cyan;
+            font-size:18px;
+            border-radius:10px;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        button:hover{
+            transform:scale(1.1);
+            background:white;
+        }
+
+    </style>
+
+    <script>
+
+        function login(){
+
+            var username =
+            document.getElementById("username").value;
+
+            var password =
+            document.getElementById("password").value;
+
+            if(username=="admin" && password=="1234")
+            {
+                alert("Login Successful");
+
+                window.location.href="appointment.html";
+            }
+
+            else
+            {
+                alert("Wrong Username or Password");
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <nav>
+        <h1>Smart Clinic</h1>
+
+        <div>
+            <a href="index.html">Home</a> |
+            <a href="services.html">Services</a> |
+             <a href="login.html">Login</a> |
+            <a href="appointment.html">Appointment</a> |
+        
+        </div>
+    </nav>
+
+    <div class="form-box">
+
+        <h2>Login Page</h2>
+
+        <input type="text"
+        id="username"
+        placeholder="Enter Username">
+
+        <input type="password"
+        id="password"
+        placeholder="Enter Password">
+
+        <br><br>
+
+        <button onclick="login()">
+            Login
+        </button>
+
+    </div>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial;
+            background-image:url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3");
+            background-size:cover;
+            background-position:center;
+            height:100vh;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            background:rgba(0,0,0,0.7);
+            padding:15px 30px;
+        }
+
+        nav h1{
+            color:white;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-size:18px;
+        }
+
+        nav a:hover{
+            color:cyan;
+        }
+
+        .form-box{
+            width:350px;
+            margin:100px auto;
+            background:rgba(0,0,0,0.7);
+            padding:30px;
+            border-radius:15px;
+            text-align:center;
+            color:white;
+        }
+
+        input{
+            width:90%;
+            padding:12px;
+            margin:10px;
+            border:none;
+            border-radius:8px;
+        }
+
+        button{
+            padding:12px 25px;
+            border:none;
+            background:cyan;
+            font-size:18px;
+            border-radius:10px;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        button:hover{
+            transform:scale(1.1);
+            background:white;
+        }
+
+    </style>
+
+    <script>
+
+        function login(){
+
+            var username =
+            document.getElementById("username").value;
+
+            var password =
+            document.getElementById("password").value;
+
+            if(username=="admin" && password=="1234")
+            {
+                alert("Login Successful");
+
+                window.location.href="appointment.html";
+            }
+
+            else
+            {
+                alert("Wrong Username or Password");
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <nav>
+        <h1>Smart Clinic</h1>
+
+        <div>
+            <a href="index.html">Home</a> |
+            <a href="services.html">Services</a> |
+             <a href="login.html">Login</a> |
+            <a href="appointment.html">Appointment</a> |
+        
+        </div>
+    </nav>
+
+    <div class="form-box">
+
+        <h2>Login Page</h2>
+
+        <input type="text"
+        id="username"
+        placeholder="Enter Username">
+
+        <input type="password"
+        id="password"
+        placeholder="Enter Password">
+
+        <br><br>
+
+        <button onclick="login()">
+            Login
+        </button>
+
+    </div>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial;
+            background-image:url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3");
+            background-size:cover;
+            background-position:center;
+            height:100vh;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            background:rgba(0,0,0,0.7);
+            padding:15px 30px;
+        }
+
+        nav h1{
+            color:white;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-size:18px;
+        }
+
+        nav a:hover{
+            color:cyan;
+        }
+
+        .form-box{
+            width:350px;
+            margin:100px auto;
+            background:rgba(0,0,0,0.7);
+            padding:30px;
+            border-radius:15px;
+            text-align:center;
+            color:white;
+        }
+
+        input{
+            width:90%;
+            padding:12px;
+            margin:10px;
+            border:none;
+            border-radius:8px;
+        }
+
+        button{
+            padding:12px 25px;
+            border:none;
+            background:cyan;
+            font-size:18px;
+            border-radius:10px;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        button:hover{
+            transform:scale(1.1);
+            background:white;
+        }
+
+    </style>
+
+    <script>
+
+        function login(){
+
+            var username =
+            document.getElementById("username").value;
+
+            var password =
+            document.getElementById("password").value;
+
+            if(username=="admin" && password=="1234")
+            {
+                alert("Login Successful");
+
+                window.location.href="appointment.html";
+            }
+
+            else
+            {
+                alert("Wrong Username or Password");
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <nav>
+        <h1>Smart Clinic</h1>
+
+        <div>
+            <a href="index.html">Home</a> |
+            <a href="services.html">Services</a> |
+             <a href="login.html">Login</a> |
+            <a href="appointment.html">Appointment</a> |
+            <a href="doctor.html">Doctor</a>
+        
+        </div>
+    </nav>
+
+    <div class="form-box">
+
+        <h2>Login Page</h2>
+
+        <input type="text"
+        id="username"
+        placeholder="Enter Username">
+
+        <input type="password"
+        id="password"
+        placeholder="Enter Password">
+
+        <br><br>
+
+        <button onclick="login()">
+            Login
+        </button>
+
+    </div>
+
+</body>
+</html>

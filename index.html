@@ -1,0 +1,99 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Clinic - Home</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial;
+            background-image:url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3");
+            background-size:cover;
+            background-position:center;
+            height:100vh;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            background:rgba(0,0,0,0.7);
+            padding:15px 30px;
+        }
+
+        nav h1{
+            color:white;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-size:18px;
+        }
+
+        nav a:hover{
+            color:cyan;
+        }
+
+        .hero{
+            text-align:center;
+            color:white;
+            margin-top:180px;
+        }
+
+        .hero h2{
+            font-size:50px;
+        }
+
+        .hero p{
+            font-size:25px;
+        }
+
+        button{
+            padding:12px 25px;
+            border:none;
+            background:cyan;
+            font-size:18px;
+            border-radius:10px;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        button:hover{
+            transform:scale(1.1);
+            background:white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h1>Smart Clinic</h1>
+
+        <div>
+            <a href="index.html">Home</a> |
+            <a href="services.html">Services</a> |
+             <a href="login.html">Login</a> |
+            <a href="appointment.html">Appointment</a> |
+            <a href="doctor.html">Doctor</a>
+            
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h2>Welcome To Smart Clinic</h2>
+        <p>Your Health, Our Priority</p>
+
+        <a href="appointment.html">
+            <button>Book Appointment</button>
+        </a>
+    </div>
+
+</body>
+</html>
